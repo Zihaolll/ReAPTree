@@ -29,10 +29,8 @@ SubspaceAPtree_param = {
     'vector_distance': 'KL',
 
     # value_space specifies how the prediction values are represented:
-    # - For 'CL' or 'NL', value_space must be 'probability'.
+    # - For 'CL' or 'NL', value_space must be 'onehot'.
     # - For 'L1', 'L2', or 'KL', value_space can also be 'probability'.
-    # - For Random Forest (RF), 'onehot' is allowed.
-    # - For GBDT, ONLY 'probability' is allowed.
     'value_space': 'probability',
 
     'subspace_param': subspace_param,
