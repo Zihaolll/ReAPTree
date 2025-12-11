@@ -24,7 +24,6 @@ SubspaceAPtree_param = {
 
     # vector_distance can be one of: 'L1', 'L2', 'KL', 'CL', 'NL'.
     # Note:
-    # - When 'vector_distance' is 'CL' or 'NL', 'value_space' MUST be 'probability'.
     # - If the original model is GBDT, 'NL' is NOT supported.
     'vector_distance': 'KL',
 
